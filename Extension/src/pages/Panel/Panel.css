@@ -1,0 +1,79 @@
+[data-theme='light'] {
+  --font-color: #c9d1d9;
+  --theme-color: #333333;
+}
+
+[data-theme='dark'] {
+  --font-color: #e3e3e3;
+  --theme-color: #141414;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  height: 350px; /* Set the height of the layout to be 100% of the viewport */
+  width: 400px;
+  border-radius: 10px;  
+  background-color: var(--theme-color);
+  color: var(--font-color);
+}
+
+.main-layout .ant-layout-content {
+  flex: 1; /* This will make the Content element grow to fill the available space */
+}
+
+.header {
+  height: 55px;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.footer {
+  padding: 10px;
+  background-color: var(--theme-color);
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  color: grey;
+}
+
+.content {
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.content::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #aaaaaa;
+  border-radius: 100px;
+}
+
+.divider {
+  margin: 0;
+  background-color: grey;
+}
+
+.footer-btn {
+  padding: 5px;
+  background-color: inherit;
+  border: 0;
+  color: grey;
+  height: 25px;
+  cursor: pointer;
+}
+
+.footer-btn:hover {
+  background-color: #8753e9;
+  border: 1px solid inherit;
+  border-radius: 10px;
+}

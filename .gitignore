@@ -1,0 +1,9 @@
+/Brain/firebase_cred.json
+.idea
+.vscode
+Brain/firebase_cred.json
+Brain/logs/*
+**/.DS_Store
+**/__pycache__
+**/google-services.json
+brain.egg-info

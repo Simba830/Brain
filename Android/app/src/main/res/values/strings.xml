@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">RisingPhone</string>
+
+    <string name="title_header_app_name">RisingPhone</string>
+    <string name="title_header_setting">Setting</string>
+
+    <string name="placeholder_edittext_chat_main_message">Type a message</string>
+
+    <string name="title_help_prompt">Prompt Command</string>
+
+    <string name="text_button_ok">OK</string>
+    <string name="text_button_cancel">Cancel</string>
+
+    <string name="hint_text_sms_phone">Phone Number</string>
+    <string name="hint_text_sms_message">Message</string>
+
+    <string name="title_chat_widget">widget title</string>
+    <string name="title_chat_widget_sms">SMS</string>
+    <string name="title_chat_widget_set_alarm">Set an alarm</string>
+
+    <string name="label_setting_uuid">uuid</string>
+    <string name="label_setting_server_url">Server Url</string>
+    <string name="label_setting_openai_key">OpenAI Key</string>
+    <string name="label_setting_pinecone_key">Pinecone Key</string>
+    <string name="label_setting_pinecone_env">Pinecone Env</string>
+    <string name="label_setting_firebase_key">Firebase Key</string>
+    <string name="label_setting_temperature">Temperature</string>
+
+    <string name="text_setting_button_save">Save</string>
+
+    <string name="title_mail_compose">Compose</string>
+    <string name="title_mail_read">Read Mail</string>
+    <string name="text_mail_compose_to">To</string>
+    <string name="text_mail_compose_from">From</string>
+    <string name="text_mail_compose_password">Password</string>
+    <string name="text_mail_compose_subject">Subject</string>
+    <string name="text_mail_compose_content">Content</string>
+    <string name="text_mail_inbox">Inbox</string>
+    <string name="text_mail_draft">Draft</string>
+
+    <string name="message_confirm_permission">This app requires SMS, Contacts and Phone permissions to function properly. Please grant the necessary permissions.</string>
+</resources>

@@ -1,0 +1,30 @@
+[data-theme='light'] {
+    --send-theme-color: #8753e9;
+    --receive-theme-color: #0d0c0d;
+  }
+  
+  [data-theme='dark'] {
+    --send-theme-color: #8753e9;
+    --receive-theme-color: #333333;
+  }
+
+.message {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.message_sent {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--send-theme-color);
+    align-self: end;
+}
+
+.message_received {
+    width: fit-content;
+    padding: 5px;
+}
+
+

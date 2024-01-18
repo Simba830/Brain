@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_primary_light">#f0f0f0</color>
+    <color name="color_primary">#e8e8e8</color>
+    <color name="color_primary_dark">#505050</color>
+    <color name="color_accent">#1e1e1e</color>
+
+    <color name="bg_color_message_receive">#99DBA7</color>
+    <color name="bg_color_message_error">#FF4545</color>
+    <color name="bg_color_message_send">#ffffff</color>
+
+    <color name="color_divider">#d0d0d0</color>
+
+    <color name="color_loading">#43E8F6</color>
+
+    <color name="bg_color_header_gradient_start">#444444</color>
+    <color name="bg_color_header_gradient_end">#323232</color>
+    <color name="color_header_title">@color/white</color>
+    <color name="color_header_app_info">@color/white</color>
+
+    <color name="bg_color_splash_screen">#0c7c73</color>
+
+</resources>
